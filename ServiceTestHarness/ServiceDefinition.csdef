@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="ServiceTestHarness" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+  <WorkerRole name="WorkerRole">
+    <ConfigurationSettings>
+      <Setting name="DiagnosticsConnectionString" />
+    </ConfigurationSettings>
+    <Endpoints>
+      <InputEndpoint name="BackupService" protocol="https" port="3030" certificate="TableStorageBackup" />
+    </Endpoints>
+    <Certificates>
+      <Certificate name="TableStorageBackup" storeLocation="LocalMachine" storeName="My" />
+    </Certificates>
+  </WorkerRole>
+</ServiceDefinition>

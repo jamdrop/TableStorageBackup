@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableStorageBackupLib", "TableStorageBackupLib\TableStorageBackupLib.csproj", "{22E078E3-167B-4F4F-99C4-408D05ABB098}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableStorageBackup", "TableStorageBackup\TableStorageBackup.csproj", "{1CD8159C-9287-40ED-9CF0-F92E85EA2225}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "ServiceTestHarness", "ServiceTestHarness\ServiceTestHarness.ccproj", "{8149651A-10BA-437F-8FDD-AB8544E9236D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerRole", "WorkerRole\WorkerRole.csproj", "{B4043C94-4692-4C93-9285-1D372990A8CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{1A553F35-9FB6-40F5-A13E-1FCB07386442}"
+	ProjectSection(SolutionItems) = preProject
+		Components\ICSharpCode.SharpZipLib.dll = Components\ICSharpCode.SharpZipLib.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22E078E3-167B-4F4F-99C4-408D05ABB098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E078E3-167B-4F4F-99C4-408D05ABB098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E078E3-167B-4F4F-99C4-408D05ABB098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E078E3-167B-4F4F-99C4-408D05ABB098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CD8159C-9287-40ED-9CF0-F92E85EA2225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD8159C-9287-40ED-9CF0-F92E85EA2225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CD8159C-9287-40ED-9CF0-F92E85EA2225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CD8159C-9287-40ED-9CF0-F92E85EA2225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8149651A-10BA-437F-8FDD-AB8544E9236D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8149651A-10BA-437F-8FDD-AB8544E9236D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8149651A-10BA-437F-8FDD-AB8544E9236D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8149651A-10BA-437F-8FDD-AB8544E9236D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4043C94-4692-4C93-9285-1D372990A8CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4043C94-4692-4C93-9285-1D372990A8CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4043C94-4692-4C93-9285-1D372990A8CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4043C94-4692-4C93-9285-1D372990A8CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
