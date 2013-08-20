@@ -1,0 +1,9 @@
+obj/
+bin/
+Backup/
+_UpgradeReport_Files/
+
+*.sln.cache
+*.ccproj.user
+*.suo
+UpgradeLog.*
