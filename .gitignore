@@ -1,5 +1,8 @@
+!*/.nuget/*
+
 obj/
 bin/
+packages/
 Backup/
 _UpgradeReport_Files/
 
