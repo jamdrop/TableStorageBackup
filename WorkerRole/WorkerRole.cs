@@ -26,11 +26,13 @@ namespace WorkerRole
             {
                 // Start the backup service
                 RoleInstanceEndpoint externalEndPoint = RoleEnvironment.CurrentRoleInstance.InstanceEndpoints["BackupService"];
-                
+
+                var backupApiKey = RoleEnvironment.GetConfigurationSettingValue("BackupApiKey");
+
                 this.backupServiceHost = BackupService.GetServiceHost(
                     BindingType.Tcp,
                     externalEndPoint.IPEndpoint.ToString(),
-                    "22ec43b717d14be7a4e618610738a25f",
+                    backupApiKey,
                     StoreLocation.LocalMachine,
                     StoreName.My,
                     "localhost");

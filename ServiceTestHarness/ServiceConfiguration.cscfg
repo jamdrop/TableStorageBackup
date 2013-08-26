@@ -4,9 +4,10 @@
     <Instances count="1" />
     <ConfigurationSettings>
       <Setting name="DiagnosticsConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="BackupApiKey" value="equoch1Aihae6aediis6aishohj0eepho8Giedaeno2Phiedo5eiNgohjate1apu" />
     </ConfigurationSettings>
     <Certificates>
-      <Certificate name="TableStorageBackup" thumbprint="12122DA6225D0783DDF90B132E6015F4D26083CE" thumbprintAlgorithm="sha1" />
+      <Certificate name="backupservicecert" thumbprint="CA04FBF564763D66B9822908B9956EED80288784" thumbprintAlgorithm="sha1" />
     </Certificates>
   </Role>
 </ServiceConfiguration>
